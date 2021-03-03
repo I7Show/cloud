@@ -1,0 +1,19 @@
+server:
+  port: 8091
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: product
+
+  datasource:
+    url: jdbc:mysql://rdso930z3l9e517h0wpvpublic.mysql.rds.aliyuncs.com:3306/shopx_sass_merchant
+    username: orcbit
+    password: gungYi516
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: false
