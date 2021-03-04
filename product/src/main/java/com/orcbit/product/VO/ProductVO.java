@@ -12,5 +12,6 @@ import lombok.NoArgsConstructor;
 public class ProductVO {
     private String categoryName;
 
+    private String a;
 
 }
