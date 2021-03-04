@@ -10,7 +10,7 @@ spring:
     name: product
 
   datasource:
-    url: jdbc:mysql://rdso930z3l9e517h0wpvpublic.mysql.rds.aliyuncs.com:3306/shopx_sass_merchant
+    url: jdbc:mysql://rdso930z3l9e517h0wpvpublic.mysql.rds.aliyuncs.com:3306/hl?characterEncoding=utf-8&useSSL=false
     username: orcbit
     password: gungYi516
     driver-class-name: com.mysql.jdbc.Driver
