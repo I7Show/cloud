@@ -1,7 +1,10 @@
 package com.orcbit.product.VO;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 /**
  * @Author: X.zp
@@ -10,8 +13,14 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class ProductVO {
+
+    @JsonProperty("name")
     private String categoryName;
 
-    private String a;
+    @JsonProperty("type")
+    private String categoryType;
+
+    @JsonProperty("foods")
+    List<ProductInfoVO> productInfoVOList;
 
 }
